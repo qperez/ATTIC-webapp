@@ -27,5 +27,5 @@ Production mode = AWS deployment using a Docker image.
 
 ### System Overview : Flask Server Starting
 
-![system overview](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
+![system overview](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/qperez/buticc-webapp/main/doc/app_launching_state_diag.puml)
 
