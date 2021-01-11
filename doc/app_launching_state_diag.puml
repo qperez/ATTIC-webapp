@@ -1,0 +1,44 @@
+@startuml
+state c1 <<choice>>
+state c2 <<choice>>
+
+[*] --> GetEnvironmentVar
+GetEnvironmentVar : PYTHONPATH
+GetEnvironmentVar : PRODUCTIONMODE
+
+GetEnvironmentVar --> c1 
+c1 --> SetPYTHONPATH : [PRODUCTIONMODE == null]
+SetPYTHONPATH : PYTHONPATH = project root
+SetPYTHONPATH --> CorpusLoading 
+
+c1 --> CorpusLoading : [PRODUCTIONMODE != null]
+CorpusLoading : CorpusUtils.load_json_corpus()
+CorpusLoading : Load the corpus from data.json
+
+CorpusLoading --> SummariesAndDescriptionsExtraction
+SummariesAndDescriptionsExtraction : CorpusUtils.get_summaries_and_descriptions_from_json_data()
+SummariesAndDescriptionsExtraction : Extract summaries and descriptions for each tickets
+SummariesAndDescriptionsExtraction --> MarkovChainsManager4Tickets
+
+MarkovChainsManager4Tickets : Create a markov chains manager for word suggestion
+MarkovChainsManager4Tickets --> LoadTrainedMachineLearningModels
+
+LoadTrainedMachineLearningModels: Multi-Layer Perceptron : mlp_model.pkl
+LoadTrainedMachineLearningModels: TF-IDF vectorizer : vectorizer.pkl
+LoadTrainedMachineLearningModels: Chi-Square feature selection : ch2_model.pkl
+LoadTrainedMachineLearningModels --> c2
+
+c2 --> StartServerDebug : [PRODUCTIONMODE == null]
+StartServerDebug : IP: 127.0.0.0
+StartServerDebug : port: 5000
+StartServerDebug : DEBUG : True
+
+c2 --> StartServerProd : [PRODUCTIONMODE != null]
+StartServerProd : IP: 0.0.0.0
+StartServerProd : port: 80
+StartServerProd : DEBUG : False
+
+StartServerDebug --> [*]
+StartServerProd --> [*]
+@enduml
+
