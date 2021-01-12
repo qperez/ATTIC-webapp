@@ -28,7 +28,8 @@ Production mode = AWS deployment using a Docker image.
 ## System Overview
 
 ### AWS Infrastructure
-![AWS Infrastructure]()
+
+![AWS Infrastructure](https://raw.githubusercontent.com/qperez/buticc-webapp/main/doc/AWS_Infrastructure.png)
 
 
 ### Flask Server Starting
@@ -37,6 +38,6 @@ Production mode = AWS deployment using a Docker image.
 ### Application Programming Interface
 
 #### /predict/ticket
-![API predict ticket](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
+![API predict ticket](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/qperez/buticc-webapp/main/doc/API/API_predict_ticket.puml)
 
 
