@@ -25,7 +25,18 @@ To run the Flask server, launch with Python 3 the "controller.py"
 
 Production mode = AWS deployment using a Docker image.
 
-### System Overview : Flask Server Starting
+## System Overview
 
-![system overview](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/qperez/buticc-webapp/main/doc/app_launching_state_diag.puml)
+### AWS Infrastructure
+![AWS Infrastructure]()
+
+
+### Flask Server Starting
+![flask server starting](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/qperez/buticc-webapp/main/doc/app_launching_state_diag.puml)
+
+### Application Programming Interface
+
+#### /predict/ticket
+![API predict ticket](http://www.plantuml.com/plantuml/proxy?cache=no&src=)
+
 

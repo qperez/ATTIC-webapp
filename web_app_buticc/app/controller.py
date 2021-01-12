@@ -20,6 +20,19 @@ def predict_next_word_summary():
     """ Uses markov chains manager to return the next words after before word(s) given. This method is used to predict
     words for ticket summary.
 
+    Example of payload in POST:
+    {"previous_words":["A","new"]}
+
+    Example of returns in the HTTP Response
+    {"next_words": [
+        {
+            "probability": 0.061, "word": "node"
+        },
+        {
+            "probability": 0.0282, "word": "new"
+        }
+    ]}
+
     :return: Next words dict for summary according to before word(s) for summary
     """
     previous_words = request.json

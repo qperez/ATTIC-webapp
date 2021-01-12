@@ -1,0 +1,30 @@
+@startuml
+
+Index.html -> Controller: POST /predict/next_word
+activate Controller
+
+Controller -> Vectorizer: String (doc)
+activate Vectorizer
+Vectorizer -> Vectorizer : transform(doc)
+Vectorizer --> Controller : Vectors (X)
+deactivate Vectorizer
+
+Controller ->  SelectKBest : Vectors (X)
+activate SelectKBest
+SelectKBest -> SelectKBest : transform(X)
+
+SelectKBest --> Controller : Vectors Reduced (X reduced)
+deactivate SelectKBest
+
+Controller ->  MLP : Vectors Reduced (X reduced)
+activate MLP
+MLP -> MLP : predict(X reduced)
+MLP -> MLP : predict_proba(X reduced)
+
+MLP --> Controller : Prediction
+deactivate MLP
+
+Controller --> Index.html : 200 OK with JSON Payload
+deactivate Controller
+
+@enduml

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.20.1-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0"/>
+    <node id="n0">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="305.0" width="683.0" x="638.0" y="339.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#FF9900" raised="false" type="dashed" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.859375" x="300.23068985849056" xml:space="preserve" y="11.524420204402531">Amazon Web Services<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.05660377358490565" nodeRatioY="-0.46221501572327045" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="246.0" width="318.0" x="668.0" y="380.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#FF9900" raised="false" type="dashed" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="215.4970703125" x="69.25146484375" xml:space="preserve" y="9.295106132075489">AWS Elastic Container Service<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.05660377358490565" nodeRatioY="-0.46221501572327045" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d5" xml:space="preserve"><![CDATA[Arch Amazon Elastic Container Registry 32]]></data>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="60.0" width="60.0" x="1146.0" y="499.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="144.73828125" x="-42.369140625" xml:space="preserve" y="64.0">ECR buticc-web-app</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="false"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d5" xml:space="preserve"><![CDATA[Arch Amazon Elastic Container Service 32]]></data>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="60.0" width="60.0" x="668.0" y="380.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="28.0" y="64.0"/>
+          <y:SVGNodeProperties usingVisualBounds="false"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="2"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d5" xml:space="preserve"><![CDATA[Arch Elastic Load Balancing 32]]></data>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="60.0" width="60.0" x="459.0" y="509.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.6298828125" x="-40.31494140625" xml:space="preserve" y="64.0">AWS Load Balancer</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="false"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="3"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="153.0" width="254.0" x="702.0" y="453.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#FF9900" raised="false" type="dashed" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="169.2451171875" x="42.37744140625" xml:space="preserve" y="4.0">Buticc-cluster (Fargate)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="-0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d5" xml:space="preserve"><![CDATA[Arch AWS Command Line Interface 32]]></data>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="60.0" width="60.0" x="1146.0" y="188.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="28.0" y="64.0"/>
+          <y:SVGNodeProperties usingVisualBounds="false"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="4"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="92.0" width="208.0" x="725.0" y="493.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#FF9900" raised="false" type="dashed" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="177.673828125" x="15.1630859375" xml:space="preserve" y="3.476218553459148">buticc-webapp container<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="-0.4622150157232701" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d5" xml:space="preserve"><![CDATA[Res Amazon Elastic Container Service Container 1 48 Light]]></data>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="39.0" width="60.0" x="797.0" y="525.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="28.0" y="43.0"/>
+          <y:SVGNodeProperties usingVisualBounds="false"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d5" xml:space="preserve"><![CDATA[Res User 48 Dark]]></data>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="60.0" width="60.0" x="-102.0" y="509.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.9658203125" x="-3.48291015625" xml:space="preserve" y="64.0">End User</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="false"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d5" xml:space="preserve"><![CDATA[Res User 48 Dark]]></data>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="60.0" width="60.0" x="1146.0" y="60.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="n" textColor="#000000" verticalTextPosition="bottom" visible="true" width="76.0029296875" x="-8.00146484375" xml:space="preserve" y="-24.296875">Developer</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="false"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <edge id="e0" source="n4" target="n7">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#FF9900" type="line" width="4.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n7" target="n4">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="19.0" ty="0.0"/>
+          <y:LineStyle color="#FF9900" type="line" width="4.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.517578125" x="-130.2587890625" xml:space="preserve" y="-40.1484375">Port 80<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n4" target="n9">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#FF9900" type="line" width="4.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n9" target="n4">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="13.0" ty="0.0"/>
+          <y:LineStyle color="#FF9900" type="line" width="4.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="473.400390625" x="14.682713621541389" xml:space="preserve" y="-30.984375">http://ec2co-ecsel-1iegdism3qjis-2023048106.eu-west-3.elb.amazonaws.com/<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="22.0" distanceToCenter="true" position="left" ratio="0.5515466512295185" segment="-1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n5" target="n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#FF9900" type="line" width="4.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="131.216796875" x="29.3916015625" xml:space="preserve" y="-40.1484375">Get Docker Image<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="left" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n10" target="n6">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#FF9900" type="line" width="4.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="114.0517578125" x="-143.62587890625014" xml:space="preserve" y="22.312392556228986">Log on AWS CLI<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="86.60000000000015" distanceToCenter="true" position="right" ratio="0.45377083276018615" segment="-1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n6" target="n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#FF9900" type="line" width="4.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="139.748046875" x="5.725976562499909" xml:space="preserve" y="35.86449354866386">Push Docker Image<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="75.59999999999991" distanceToCenter="true" position="left" ratio="0.13997949731783987" segment="-1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources>
+      <y:Resource id="1" xml:space="preserve">&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'&gt;
+&lt;svg contentScriptType="text/ecmascript" width="40px" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 40 40" height="40px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.1"
+&gt;
+    &lt;!-- Generator: Sketch 64 (93537) - https://sketch.com --&gt;
+    &lt;title
+  &gt;Icon-Architecture/32/Arch_Amazon-Elastic-Container-Registry_32&lt;/title
+  &gt;
+    &lt;desc
+  &gt;Created with Sketch.&lt;/desc
+  &gt;
+    &lt;defs
+  &gt;
+        &lt;linearGradient x1="0%" xmlns:xlink="http://www.w3.org/1999/xlink" x2="100%" y1="100%" y2="0%" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient-1" xlink:show="other"
+    &gt;
+            &lt;stop style="stop-color:#C8511B;" offset="0%"
+      /&gt;
+            &lt;stop style="stop-color:#FF9900;" offset="100%"
+      /&gt;
+        &lt;/linearGradient
+      &gt;
+    &lt;/defs
+      &gt;
+    &lt;g id="Icon-Architecture/32/Arch_Amazon-Elastic-Container-Registry_32" style="fill:none; stroke-width:1; fill-rule:evenodd; stroke:none;"
+      &gt;
+        &lt;g style="fill:url(#linearGradient-1);" id="Icon-Architecture-BG/32/Containers"
+        &gt;
+            &lt;rect width="40" x="0" height="40" id="Rectangle" y="0"
+          /&gt;
+        &lt;/g
+          &gt;
+        &lt;path d="M19.404,19.0059205 C19.155,19.1466961 19,19.4095429 19,19.6920786 L19,32.8747795 L9,27.190595 L9,14.4075786 L20.253,8.01164047 L30.22,12.8580625 L19.404,19.0059205 Z M31.455,12.8432958 C31.455,12.5656823 31.303,12.3077578 31.031,12.1551688 L20.639,7.10201343 C20.393,6.96616004 20.092,6.96517559 19.85,7.10398232 L8.404,13.6101783 C8.155,13.7499695 8,14.0128163 8,14.2963364 L8,27.3028217 C8,27.5853574 8.155,27.8482041 8.402,27.9879953 L18.794,33.8946644 C18.918,33.9655444 19.057,34 19.196,34 C19.335,34 19.474,33.9655444 19.598,33.8946644 C19.845,33.7538888 20,33.491042 20,33.2094908 L20,19.8043053 L31.058,13.5186249 C31.303,13.3798182 31.455,13.1209092 31.455,12.8432958 L31.455,12.8432958 Z M32,27.5341662 L22.961,32.8235884 L22.961,27.8619864 L27.955,24.8623829 L27.988,24.6310384 C27.997,24.5709872 28,24.5709872 28,24.2904205 L28,18.7440582 L32,16.4699906 L32,27.5341662 Z M32.598,15.4510902 C32.35,15.3093301 32.042,15.3093301 31.794,15.4501057 L27.322,17.9929268 C27.127,18.1051535 27,18.3227158 27,18.5452003 L27,24.2825449 L22.357,27.0704927 C22.112,27.2122528 21.961,27.4731307 21.961,27.752713 L21.961,33.1632219 C21.961,33.4487109 22.111,33.7046665 22.362,33.8483955 C22.485,33.9182911 22.624,33.9537311 22.762,33.9537311 C22.903,33.9537311 23.045,33.9173066 23.173,33.8454422 L32.595,28.3305821 C32.844,28.190791 33,27.9279442 33,27.6444241 L33,16.1352794 C33,15.8497903 32.849,15.5938347 32.598,15.4510902 L32.598,15.4510902 Z" id="Amazon-Elastic-Container-Registry_Icon_32_Squid" style="fill:#FFFFFF;"
+          /&gt;
+    &lt;/g
+          &gt;
+&lt;/svg
+        &gt;
+</y:Resource>
+      <y:Resource id="2" xml:space="preserve">&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'&gt;
+&lt;svg contentScriptType="text/ecmascript" width="40px" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 40 40" height="40px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.1"
+&gt;
+    &lt;!-- Generator: Sketch 64 (93537) - https://sketch.com --&gt;
+    &lt;title
+  &gt;Icon-Architecture/32/Arch_Amazon-Elastic-Container-Service_32&lt;/title
+  &gt;
+    &lt;desc
+  &gt;Created with Sketch.&lt;/desc
+  &gt;
+    &lt;defs
+  &gt;
+        &lt;linearGradient x1="0%" xmlns:xlink="http://www.w3.org/1999/xlink" x2="100%" y1="100%" y2="0%" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient-1" xlink:show="other"
+    &gt;
+            &lt;stop style="stop-color:#C8511B;" offset="0%"
+      /&gt;
+            &lt;stop style="stop-color:#FF9900;" offset="100%"
+      /&gt;
+        &lt;/linearGradient
+      &gt;
+    &lt;/defs
+      &gt;
+    &lt;g id="Icon-Architecture/32/Arch_Amazon-Elastic-Container-Service_32" style="fill:none; stroke-width:1; fill-rule:evenodd; stroke:none;"
+      &gt;
+        &lt;g style="fill:url(#linearGradient-1);" id="Icon-Architecture-BG/32/Containers"
+        &gt;
+            &lt;rect width="40" x="0" height="40" id="Rectangle" y="0"
+          /&gt;
+        &lt;/g
+          &gt;
+        &lt;path d="M32,24.2493941 L28,21.8925474 L28,15.8250672 C28,15.6354584 27.888,15.4625509 27.713,15.3810093 L22,12.736311 L22,8.28492611 L32,13.1823337 L32,24.2493941 Z M32.722,12.4386351 L21.722,7.05197797 C21.567,6.97534852 21.383,6.98419038 21.237,7.0735914 C21.09,7.16299242 21,7.32116346 21,7.49112364 L21,13.0477409 C21,13.2373497 21.111,13.4112396 21.287,13.4917988 L27,16.1364971 L27,22.1705748 C27,22.3434823 27.091,22.5026357 27.243,22.5910543 L32.243,25.5383407 C32.322,25.5854973 32.411,25.6090756 32.5,25.6090756 C32.585,25.6090756 32.67,25.5874622 32.746,25.5452177 C32.903,25.4577816 33,25.2946984 33,25.1178612 L33,12.8777808 C33,12.6921017 32.892,12.5211591 32.722,12.4386351 L32.722,12.4386351 Z M19.995,32.9517485 L9,27.3165369 L9,13.1685797 L18,8.32029355 L18,12.7618542 L13.254,15.3977106 C13.096,15.4851468 13,15.64823 13,15.8250672 L13,24.6669264 C13,24.8457284 13.099,25.0107765 13.258,25.0972302 L19.758,28.6123605 C19.909,28.693902 20.091,28.693902 20.24,28.6133429 L26.49,25.2416472 L30.036,27.5719684 L19.995,32.9517485 Z M26.794,24.2592184 C26.638,24.1570458 26.439,24.1491864 26.275,24.2366226 L20,27.6220722 L14,24.3771099 L14,16.1119364 L18.746,13.4750975 C18.903,13.3886437 19,13.2245781 19,13.0477409 L19,7.49112364 C19,7.31723374 18.907,7.15709785 18.755,7.06867926 C18.603,6.98026067 18.415,6.97731338 18.259,7.0598374 L8.259,12.4474769 C8.099,12.5339307 8,12.6989787 8,12.8777808 L8,27.6142128 C8,27.797927 8.103,27.9649399 8.268,28.0504112 L19.768,33.944984 C19.84,33.9813339 19.921,34 20,34 C20.082,34 20.165,33.9803514 20.239,33.9400718 L31.239,28.045499 C31.392,27.962975 31.491,27.8087337 31.499,27.6368087 C31.507,27.4648836 31.424,27.3018004 31.278,27.2065048 L26.794,24.2592184 Z" id="Amazon-Elastic-Container-Service_Icon_32_Squid" style="fill:#FFFFFF;"
+          /&gt;
+    &lt;/g
+          &gt;
+&lt;/svg
+        &gt;
+</y:Resource>
+      <y:Resource id="3" xml:space="preserve">&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'&gt;
+&lt;svg contentScriptType="text/ecmascript" width="40px" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 40 40" height="40px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.1"
+&gt;
+    &lt;!-- Generator: Sketch 64 (93537) - https://sketch.com --&gt;
+    &lt;title
+  &gt;Icon-Architecture/32/Arch_Elastic-Load-Balancing_32&lt;/title
+  &gt;
+    &lt;desc
+  &gt;Created with Sketch.&lt;/desc
+  &gt;
+    &lt;defs
+  &gt;
+        &lt;linearGradient x1="0%" xmlns:xlink="http://www.w3.org/1999/xlink" x2="100%" y1="100%" y2="0%" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient-1" xlink:show="other"
+    &gt;
+            &lt;stop style="stop-color:#4D27A8;" offset="0%"
+      /&gt;
+            &lt;stop style="stop-color:#A166FF;" offset="100%"
+      /&gt;
+        &lt;/linearGradient
+      &gt;
+    &lt;/defs
+      &gt;
+    &lt;g id="Icon-Architecture/32/Arch_Elastic-Load-Balancing_32" style="fill:none; stroke-width:1; fill-rule:evenodd; stroke:none;"
+      &gt;
+        &lt;g style="fill:url(#linearGradient-1);" id="Icon-Architecture-BG/32/Networking-Content-Delivery"
+        &gt;
+            &lt;rect width="40" x="0" height="40" id="Rectangle" y="0"
+          /&gt;
+        &lt;/g
+          &gt;
+        &lt;path d="M15,27 C11.141,27 8,23.86 8,20 C8,16.14 11.141,13 15,13 C18.859,13 22,16.14 22,20 C22,23.86 18.859,27 15,27 M29,28 C30.103,28 31,28.897 31,30 C31,31.103 30.103,32 29,32 C27.897,32 27,31.103 27,30 C27,28.897 27.897,28 29,28 M29,8 C30.103,8 31,8.897 31,10 C31,11.103 30.103,12 29,12 C27.897,12 27,11.103 27,10 C27,8.897 27.897,8 29,8 M30,18.5 C31.103,18.5 32,19.397 32,20.5 C32,21.603 31.103,22.5 30,22.5 C28.897,22.5 28,21.603 28,20.5 C28,19.397 28.897,18.5 30,18.5 M22.931,21 L27.051,21 C27.29,22.416 28.517,23.5 30,23.5 C31.654,23.5 33,22.154 33,20.5 C33,18.846 31.654,17.5 30,17.5 C28.517,17.5 27.29,18.584 27.051,20 L23,20 C23,18.511 22.584,17.12 21.872,15.925 L26.699,11.902 C27.25,12.567 28.071,13 29,13 C30.654,13 32,11.654 32,10 C32,8.346 30.654,7 29,7 C27.346,7 26,8.346 26,10 C26,10.361 26.074,10.702 26.191,11.022 L21.306,15.094 C19.84,13.215 17.562,12 15,12 C10.589,12 7,15.589 7,20 C7,24.411 10.589,28 15,28 C17.562,28 19.84,26.785 21.306,24.906 L26.191,28.978 C26.074,29.298 26,29.639 26,30 C26,31.654 27.346,33 29,33 C30.654,33 32,31.654 32,30 C32,28.346 30.654,27 29,27 C28.071,27 27.25,27.433 26.699,28.098 L21.872,24.075 C22.422,23.152 22.791,22.113 22.931,21" id="Elastic-Load-Balancing_Icon_32_Squid" style="fill:#FFFFFF;"
+          /&gt;
+    &lt;/g
+          &gt;
+&lt;/svg
+        &gt;
+</y:Resource>
+      <y:Resource id="4" xml:space="preserve">&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'&gt;
+&lt;svg contentScriptType="text/ecmascript" width="40px" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 40 40" height="40px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.1"
+&gt;
+    &lt;!-- Generator: Sketch 64 (93537) - https://sketch.com --&gt;
+    &lt;title
+  &gt;Icon-Architecture/32/Arch_AWS-Command-Line-Interface_32&lt;/title
+  &gt;
+    &lt;desc
+  &gt;Created with Sketch.&lt;/desc
+  &gt;
+    &lt;defs
+  &gt;
+        &lt;linearGradient x1="0%" xmlns:xlink="http://www.w3.org/1999/xlink" x2="100%" y1="100%" y2="0%" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient-1" xlink:show="other"
+    &gt;
+            &lt;stop style="stop-color:#2E27AD;" offset="0%"
+      /&gt;
+            &lt;stop style="stop-color:#527FFF;" offset="100%"
+      /&gt;
+        &lt;/linearGradient
+      &gt;
+    &lt;/defs
+      &gt;
+    &lt;g id="Icon-Architecture/32/Arch_AWS-Command-Line-Interface_32" style="fill:none; stroke-width:1; fill-rule:evenodd; stroke:none;"
+      &gt;
+        &lt;g style="fill:url(#linearGradient-1);" id="Icon-Architecture-BG/32/Developer-Tools"
+        &gt;
+            &lt;rect width="40" x="0" height="40" id="Rectangle" y="0"
+          /&gt;
+        &lt;/g
+          &gt;
+        &lt;path d="M6,7 L6,34 L23,34 L23,33 L7,33 L7,12 L33,12 L33,33 L30,33 L30,34 L34,34 L34,7 L6,7 Z M7,11 L33,11 L33,8 L7,8 L7,11 Z M13,10 L14,10 L14,9 L13,9 L13,10 Z M11,10 L12,10 L12,9 L11,9 L11,10 Z M9,10 L10,10 L10,9 L9,9 L9,10 Z M10.647,18.354 L15.293,23 L10.647,27.647 L11.353,28.353 L16.707,23 L11.353,17.646 L10.647,18.354 Z M19,26 L28,26 L28,25 L19,25 L19,26 Z" id="AWS-Command-Line-Interface_Icon_32_Squid" style="fill:#FFFFFF;"
+          /&gt;
+    &lt;/g
+          &gt;
+&lt;/svg
+        &gt;
+</y:Resource>
+      <y:Resource id="5" xml:space="preserve">&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'&gt;
+&lt;svg contentScriptType="text/ecmascript" width="48px" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 48 48" height="48px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.1"
+&gt;
+    &lt;title
+  &gt;Icon-Resource/Containers/Res_Amazon-Elastic-Container-Service_Container-1_48_Light&lt;/title
+  &gt;
+    &lt;g id="Icon-Resource/Containers/Res_Amazon-Elastic-Container-Service_Container-1_48" style="fill:none; stroke-width:1; fill-rule:evenodd; stroke:none;"
+  &gt;
+        &lt;path d="M38.725,33.7354 L40.725,33.7354 L40.725,14.4974 L38.725,14.4974 L38.725,33.7354 Z M33.479,33.7354 L35.479,33.7354 L35.479,14.4974 L33.479,14.4974 L33.479,33.7354 Z M28.232,33.7354 L30.232,33.7354 L30.232,14.4974 L28.232,14.4974 L28.232,33.7354 Z M22.986,33.7354 L24.986,33.7354 L24.986,14.4974 L22.986,14.4974 L22.986,33.7354 Z M17.739,33.7354 L19.739,33.7354 L19.739,14.4974 L17.739,14.4974 L17.739,33.7354 Z M12.493,33.7354 L14.493,33.7354 L14.493,14.4974 L12.493,14.4974 L12.493,33.7354 Z M7.246,33.7354 L9.246,33.7354 L9.246,14.4974 L7.246,14.4974 L7.246,33.7354 Z M3.999,36.2324 L43.972,36.2324 L43.972,12.0004 L3.999,12.0004 L3.999,36.2324 Z M44.972,9.9994 L3,9.9994 C2.447,9.9994 2,10.4474 2,10.9994 L2,37.2324 C2,37.7844 2.447,38.2324 3,38.2324 L44.972,38.2324 C45.525,38.2324 45.972,37.7844 45.972,37.2324 L45.972,10.9994 C45.972,10.4474 45.525,9.9994 44.972,9.9994 L44.972,9.9994 Z" id="Amazon-Elastic-Container-Service-Container-1_Resource-Icon_light-bg" style="fill:#D45B07;"
+    /&gt;
+    &lt;/g
+    &gt;
+&lt;/svg
+  &gt;
+</y:Resource>
+      <y:Resource id="6" xml:space="preserve">&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'&gt;
+&lt;svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 50 50" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"
+&gt;&lt;defs
+  &gt;&lt;style xml:space="preserve"
+    &gt;.cls-1{fill:#232f3e;}&lt;/style
+  &gt;&lt;/defs
+  &gt;&lt;title
+  &gt;User_light-bg&lt;/title
+  &gt;&lt;g id="Working"
+  &gt;&lt;path class="cls-1" d="M47.5,48.44H2.5a1,1,0,0,1-1-1v-3a22.73,22.73,0,0,1,17.36-22.1,1.06,1.06,0,0,1,.72.09,11.29,11.29,0,0,0,10.82,0,1,1,0,0,1,.71-.09A22.73,22.73,0,0,1,48.5,44.45v3A1,1,0,0,1,47.5,48.44Zm-44-2h43v-2A20.71,20.71,0,0,0,31,24.39a13.51,13.51,0,0,1-6,1.43,13.21,13.21,0,0,1-6-1.43A20.72,20.72,0,0,0,3.5,44.45Z"
+    /&gt;&lt;path class="cls-1" d="M25,25.75a12.18,12.18,0,0,1-5.9-1.5A12.13,12.13,0,1,1,37.16,13.67a12,12,0,0,1-6.32,10.58h0A12.38,12.38,0,0,1,25,25.75ZM25,3.56A10.08,10.08,0,0,0,20,22.5a10.33,10.33,0,0,0,9.85,0A10.08,10.08,0,0,0,25,3.56Z"
+  /&gt;&lt;/g
+&gt;&lt;/svg
+&gt;
+</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>
